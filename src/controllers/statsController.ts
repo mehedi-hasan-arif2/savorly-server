@@ -16,3 +16,4 @@ export async function getStats(req: Request, res: Response) {
     avgRating: avgRatingResult[0]?.avg?.toFixed(1) || "0",
   });
 }
+
